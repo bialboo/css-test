@@ -1,0 +1,74 @@
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black; 
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin: 5%;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    width: 750px;
+   
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px;
+}
+
+article{
+    flex: 1 1 300px;
+    margin: 10px;
+    max-width: 750px;
+}
+
+article p {
+    text-align: center;
+    color: gray;
+    
+}
+
+@media (min-width: 400px) and (max-width: 670px) {
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+    li {
+        display: flex;
+        background-color: grey;
+        padding: 5px;
+    
+    }
+
+    .logo {
+        font-size: 40px;
+    }
+    section {
+        margin: 5px;
+    }
+}
